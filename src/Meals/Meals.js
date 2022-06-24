@@ -27,7 +27,7 @@ const Meals = () => {
     ]
 
     return <div className="meals">
-        {meals.map(meal => <Meal title={meal.title} description={meal.description} price={meal.price}></Meal>)}
+        {meals.map(meal => <Meal key={meal.title} title={meal.title} description={meal.description} price={meal.price}></Meal>)}
         </div>;
 }
 
