@@ -1,0 +1,22 @@
+.meal {display: flex;justify-content: space-between;border-bottom: 1px solid #d7d7d7;padding-bottom:2rem}
+.meal:last-child {border-bottom: none;padding-bottom: 0;}
+
+.meal__title {
+    margin-bottom: 1rem;
+}
+
+.meal__description {
+    margin-bottom: 1rem;
+}
+
+.meal__price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(255, 106, 0);
+}
+
+.meal__user label {
+    font-weight: bold;
+}
+
+.meal__user input {width: 50px;margin-left: 1rem;margin-bottom: 1rem;}
