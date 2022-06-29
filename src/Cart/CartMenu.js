@@ -1,13 +1,13 @@
 import Badge from "../UI/Badge";
 import CartIcon from "../UI/CartIcon";
-import './Cart.css'
+import './CartMenu.css'
 
-const Cart = () => {
-    return <div className="cart">
+const CartMenu = () => {
+    return <button className="cart">
         <CartIcon />
         <p>Your cart</p>
         <Badge/>
-    </div>;
+    </button>;
 }
 
-export default Cart;
+export default CartMenu;

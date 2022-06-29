@@ -4,6 +4,7 @@
     border-radius: 25px;
     margin-left: 1rem;
     font-weight: bold;
+    color: white;
   }
   
   .button:hover .badge,
